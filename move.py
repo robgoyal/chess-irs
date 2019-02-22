@@ -74,7 +74,7 @@ class Move:
         self.process_image()
 
         post_state = BoardState(self.new_state_proc_img)
-        self.new_color_map = post_state.get_piece_locations()
+        self.new_color_map = post_state.get_color_map()
 
     def process_image(self):
         """process_image

@@ -2,9 +2,9 @@ import sys
 from collections import OrderedDict
 from IPython import embed
 
-from board import Board
+from board import BoardState
 
-b = Board(sys.argv[1])
+b = BoardState(sys.argv[1])
 sqrs = b.squares
 
 green_squares = [sqrs[2][1], sqrs[2][3], sqrs[2][5], sqrs[2][7],

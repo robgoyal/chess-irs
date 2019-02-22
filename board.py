@@ -102,4 +102,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     board = BoardState(args.processed, args.raw)
-    pprint(board.get_piece_locations())
+    pprint(board.get_color_map())
