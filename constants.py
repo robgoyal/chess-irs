@@ -1,0 +1,21 @@
+# Board and Square Constants
+SQUARE_SIZE = 150
+BOARD_SIZE = SQUARE_SIZE * 8
+
+# Pixel Ranges and Thresholds
+LOWER_WHITE = [70, 0, 190]
+UPPER_WHITE = [100, 30, 220]
+
+LOWER_GREEN = [75, 200, 60]
+UPPER_GREEN = [95, 240, 90]
+
+LOWER_BLACK = [0, 0, 0]
+UPPER_BLACK = [180, 120, 40]
+
+WHITE_THRESHOLD = 18000
+GREEN_THRESHOLD = 18000
+BLACK_THRESHOLD = 2000
+
+# Demo Constants
+DEBUG = False
+SHOW_IMAGES = False
