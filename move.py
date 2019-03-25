@@ -83,7 +83,7 @@ class Move:
         This method spawns a shell to execute the frame.py file.
         """
 
-        args = ['python', '/Users/robing/Documents/Projects/GitHub/OpenCVChess/frame.py',
+        args = ['python', '/home/ubuntu/Desktop/CAPSTONE_R/chess-irs/frame.py',
                 'detect', '--input', self.new_state_raw_img, '--output',
                 self.new_state_proc_img]
 
